@@ -31,9 +31,23 @@ video {
 	top: 0;
 	left: 0;
 	right: 0;
+}
 
-	/* Inserisci qui sotto 
-	le tue regole, se necessario. */
+	.header-bar {
+		display: flex;
+		justify-content: space-between;
+		padding: 1rem;
+		color: rgba(255, 255, 255, 0.763);
+
+		.banner {
+			color: rgba(211, 211, 211, 0.431);
+		}
+		
+      
+	}
+
+    
+
 }
 
 /* Footer */
