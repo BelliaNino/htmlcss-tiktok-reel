@@ -37,18 +37,45 @@ video {
 		display: flex;
 		justify-content: space-between;
 		padding: 1rem;
-		color: rgba(255, 255, 255, 0.763);
+		color: rgba(255, 255, 255, 0.855);
+		font-size: 120%;
+		font-weight: 450;
 
 		.banner {
 			color: rgba(211, 211, 211, 0.431);
 		}
+
+	.bannergroup {
+		display: flex;
+		justify-content: center;
+		gap: 1rem;
+
+		.lastbanner {
+			border-bottom: solid;
+			border-width: 2.5px;
+			border-radius: 10%;
+			padding-bottom: 0.25rem;
+		}	
 		
-      
+		.lastbanner {
+			position: relative;
+		}
+
+        .lastbanner::after {
+			content: "°";
+            position: absolute;
+            font-size: 1.1rem;
+            top: -28%;
+            right: 119%;
+            color: #be3030bd;
+			
+		}
 	}
+	
+
+	
 
     
-
-}
 
 /* Footer */
 
