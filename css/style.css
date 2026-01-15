@@ -73,7 +73,10 @@ video {
 		}
 	}
 
+	/*sidebar*/
+	
 	.sidebar {
+		position: relative;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -95,12 +98,37 @@ video {
 		.rcount {
 			font-size: 80%;
 		}
-		
+		}	
+
+
+		.logos {
+			display: flex;
+			flex-shrink: 0;
 
 		
-		
-			
+		img {
+			position: absolute;
+			width: 9%;
+			top: 43%;
+			right: 4%;
+			border-radius: 50%;
+			border: solid white;
 		}
+
+		i {
+			position: absolute;
+			width: 10%;
+			top: 47%;
+			left: 90%;
+			color: red;*/
+			
+	    }
+	    }
+	
+	
+				
+					
+			
 		
 
 		
