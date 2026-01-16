@@ -18,7 +18,8 @@ video {
 }
 
 .reel-page {
-	height: 100vh; /* ti incuriosisce? */
+	height: 100vh;
+	/* ti incuriosisce? */
 	max-width: 512px;
 	min-width: 400px;
 	position: relative;
@@ -32,6 +33,7 @@ video {
 	left: 0;
 	right: 0;
 }
+
 /*header bar*/
 .header-bar {
 	display: flex;
@@ -40,12 +42,13 @@ video {
 	color: rgba(255, 255, 255, 0.855);
 	font-size: 120%;
 	font-weight: 450;
+	max-width: 512px;
 
 	.banner {
 		color: rgba(211, 211, 211, 0.53);
-		}
 	}
-	
+}
+
 .bannergroup {
 	display: flex;
 	justify-content: center;
@@ -56,34 +59,34 @@ video {
 		border-width: 2.5px;
 		border-radius: 10%;
 		padding-bottom: 0.25rem;
-		}	
-		
-	.lastbanner {
-		position: relative;
-		}
-
-    .lastbanner::after {
-		content: "°";
-        position: absolute;
-        font-size: 1.1rem;
-        top: -28%;
-        right: 119%;
-        color: #be3030bd;
-			
-		}
 	}
 
-	/*sidebar*/
+	.lastbanner {
+		position: relative;
+	}
 
-	
-	
+	.lastbanner::after {
+		content: "°";
+		position: absolute;
+		font-size: 1.1rem;
+		top: -28%;
+		right: 119%;
+		color: #be3030bd;
+
+	}
+}
+
+
+
+/*sidebar*/
+
 .sidebar {
 	min-width: 80px;
 	min-height: 450px;
+	position: relative;
 }
 
 .sidebar {
-	position: relative;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -95,46 +98,46 @@ video {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-			
-		}
+
+	}
 
 	i {
 		font-size: 150%;
-		}
+	}
 
 	.rcount {
 		font-size: 80%;
-		}
-	}	
+	}
+}
 
 
 .logos {
 	display: flex;
 	flex-shrink: 0;
 
-		
+
 	img {
-	position: absolute;
-	width: 9%;
-	top: 43%;
-	right: 4%;
-	border-radius: 50%;
-	border: solid white;
-		}
+		position: absolute;
+		width: 75%;
+		bottom: 85%;
+		right: 12%;
+		border-radius: 50%;
+		border: solid white;
+	}
 
 	i {
 		position: absolute;
 		width: 10%;
-		top: 47%;
-		left: 90%;
+		bottom: 82%;
+		right: 55%;
 		color: rgb(255, 8, 8);
-			
-	    }
-	    }
+
+	}
+}
 
 .caption {
 	position: relative;
-		}
+}
 
 .caption {
 	position: absolute;
@@ -143,17 +146,17 @@ video {
 	padding-left: 1rem;
 	font-weight: 200;
 	font-family: sans-serif;
-	}
+}
 
 .caption.first-child {
 	padding-bottom: 1rem;
-	}
+}
 
 .caption p:first-child {
 	padding-bottom: 0.5rem;
-	}
-	
-	/* Footer */
+}
+
+/* Footer */
 
 footer {
 	display: flex;
@@ -161,20 +164,20 @@ footer {
 	justify-content: space-around;
 	background-color: black;
 	color: white;
-    padding-bottom: 2rem;
-	
-	
-    .icon-box {
+	padding-bottom: 2rem;
+
+
+	.icon-box {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		font-size: 140%;
-		
-	span {
-		font-size: 45%;
+
+		span {
+			font-size: 45%;
 		}
 	}
-    }
+}
 
 .bi.bi-plus {
 	color: black;
@@ -191,19 +194,17 @@ footer {
 	right: 0;
 	bottom: 0;
 	color: #fff;
-    }
+}
 
-/* Sidebar */
+/* Sidebar*/
 .sidebar {
 	padding: 0 16px;
 	position: absolute;
 	right: 0;
 	top: 40%;
-	}
-				
-footer {
-	min-height: 90px;
 }
 
-
-
+footer {
+	min-height: 90px;
+	max-width: 512px;
+}
